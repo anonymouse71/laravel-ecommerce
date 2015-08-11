@@ -29,7 +29,7 @@
                 <p>The following errors have occured:</p>
 
                 <ul>
-                    @foreach($errors-><a href="#"></a>ll() as $error)
+                    @foreach($errors->all() as $error)
                         <li>{{ $error }}</li>
                     @endforeach
                 </ul>
