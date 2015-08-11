@@ -17,3 +17,4 @@ Route::get('/', function()
 });
 
 Route::controller('admin/categories' , 'CategoriesController');
+Route::controller('admin/products' , 'ProductsController');

@@ -3,7 +3,7 @@
 /**
  *
  */
-class categoriesController extends BaseController {
+class CategoriesController extends BaseController {
 
   public function __construct() {
     $this->beforeFilter('csrf' , array('on'=>'post'));
@@ -31,7 +31,6 @@ class categoriesController extends BaseController {
       ->with('message' , 'something went wrong')
       ->withError($validator)
       ->withInput();
-
   }
 
   public function postDestroy() {

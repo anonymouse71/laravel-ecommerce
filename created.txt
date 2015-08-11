@@ -6,3 +6,12 @@ created::
 - modal Category.php
 - CategoriesController.php
 - categories/index.blade.php
+
+
+
+ Tutorial - folder 2 - Video 2
+- add image helper in config/app/php file
+- add products folder in
+- modal Product.php
+- ProductsController.php
+- products/index.blade.php
