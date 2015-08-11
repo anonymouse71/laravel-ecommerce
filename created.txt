@@ -1,0 +1,8 @@
+created::
+
+
+ Tutorial - folder 2 - Video 1
+- main.blade.php
+- modal Category.php
+- CategoriesController.php
+- categories/index.blade.php
