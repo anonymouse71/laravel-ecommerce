@@ -29,7 +29,7 @@
                 </section><!-- end top-area -->
                 <section id="action-bar">
                     <div id="logo">
-                        <a href="#"><span id="logo-accent">e</span>Commerce</a>
+                        <a href="/"><span id="logo-accent">e</span>Commerce</a>
                     </div><!-- end logo -->
 
                     <nav class="dropdown">
@@ -100,6 +100,8 @@
                 </section><!-- end action-bar -->
             </header>
 
+                @yield('promo')
+
             <hr />
 
             <section id="main-content" class="clearfix">
@@ -150,7 +152,7 @@
                 <section class="clearfix">
                     <div id="copyright">
                         <div id="logo">
-                            <a href="#"><span id="logo-accent">e</span>Commerce</a>
+                            <a href="/"><span id="logo-accent">e</span>Commerce</a>
                         </div><!-- end logo -->
                         <p id="store-desc">This is a short description of the store.</p>
                         <p id="store-copy">&copy; 2015 eCommerce. Theme designed by Adi Purdila.</p>
